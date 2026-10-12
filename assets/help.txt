@@ -1,0 +1,157 @@
+<!-- Container for all image slides -->
+
+
+
+<!-- The active class makes the first slide visible -->
+
+
+
+<!-- Navigation buttons -->
+
+&#8592;
+
+&#8594;
+
+
+
+<!-- Pagination dots -->
+
+
+
+-------------------------
+
+
+/* Remove default browser spacing */
+
+
+/* Center the carousel on the page */
+
+
+/* Main carousel container */
+
+
+/* Stack all slides on top of each other */
+
+
+/* Hide every slide by default */
+
+
+/* Smoothly animate visibility and opacity */
+
+
+/* Show the active slide */
+
+
+/* Make images fill the entire slide */
+
+
+/* Previous and next buttons */
+
+
+/* Pagination dots */
+
+
+/* Individual dot */
+
+
+/* Highlight the active dot */
+
+
+/* Smaller controls on mobile */
+
+
+------------------------------------
+
+
+/* Find all slides in the carousel */
+
+
+/* Find the previous and next buttons */
+
+
+/* Find the container where pagination dots will be added */
+
+
+/* Store the index of the currently visible slide */
+
+
+/* Create one pagination dot for every slide */
+
+
+// Create a new button element
+
+
+// Add the CSS class used to style the dot
+
+
+// Add an accessible label for screen readers
+
+
+// Highlight the first dot because the first slide is active
+
+
+// When a dot is clicked, show its corresponding slide
+
+
+// Add the dot to the pagination container
+
+
+/* Get all pagination dots after creating them */
+
+
+/* Function responsible for changing the active slide */
+
+
+// Remove the active class from every slide and dot
+
+
+// Save the index of the slide we want to display
+
+
+// Add the active class to the selected slide
+
+
+// Highlight the matching pagination dot
+
+
+/* Show the next slide when the next button is clicked */
+
+
+// Move to the next index
+
+
+// If we reach the last slide, return to the first
+
+
+// Display the new slide
+
+
+/* Show the previous slide when the previous button is clicked */
+
+
+// Move to the previous index
+
+
+// If we move before the first slide, go to the last
+
+
+// Display the new slide
+
+
+/* Automatically switch to the next slide every 5 seconds */
+
+
+// Calculate the index of the next slide
+
+
+// Return to the first slide when we reach the end
+
+
+// Display the next slide with the fade animation
+
+
+// 10000 milliseconds = 10 seconds
+
+
+
+
